@@ -8,31 +8,34 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+_Morgan Stanley_
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+_L'organisation faisait face à l'inaccessibilité en temps réel de décennies de rapports de recherche et de données critiques, accumulées dans une bibliothèque de plus de 100 000 documents. Auparavant, les conseillers devaient déléguer ces recherches à des analystes juniors ou chercher manuellement pendant des heures, ce qui freinait la réactivité commerciale_
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+_Agent analyste / chercheur financier_
 
 ## 3. Role specialise que l'agent orchestre
 
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+_Analyse financière et soutien à la gestion de patrimoine (Wealth Management)_
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+_Vitesse d'exécution : Passage d'une recherche de plusieurs heures à une réponse sourcée obtenue en quelques secondes._
+_Accessibilité : Synthèse instantanée et en langage naturel de la connaissance contenue dans 100 000+ rapports de recherche._
+_Levier stratégique : L'agent offre au conseiller l'expertise d'une équipe complète d'analystes disponible instantanément._
 
 ## 5. Risque principal et mitigation concrete
 
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
+_Risque principal : L'hallucination, soit la génération par le modèle d'une réponse plausible mais factuellement fausse (ex. : mauvaises prévisions boursières)._
+_Mitigation concrète : L'utilisation du RAG (Retrieval-Augmented Generation). L'agent consulte obligatoirement les données internes de Morgan Stanley avant de répondre, ce qui réduit drastiquement les erreurs et garantit que chaque réponse est sourcée._
 
 ## 6. Condition de succes pour votre organisation
 
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+_La mise en place d'un protocole HITL (Human-in-the-Loop) est indispensable. Bien que l'agent soit performant, un humain doit valider les décisions et les conseils critiques avant qu'ils ne soient transmis au client final, car la validation humaine reste non négociable en entreprise._
 
 ---
 
